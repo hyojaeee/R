@@ -1,4 +1,3 @@
-# Homework 1
 # Test the Law of Large Numbers for N random normally distributed 
 # numbers with mean = 0, stdev = 1
 # Create an R script that will count how many of these numbers fall 
