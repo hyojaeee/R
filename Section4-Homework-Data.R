@@ -1,18 +1,3 @@
-#Dear Student,
-#
-#Welcome to the dataset for the homework exercise.
-#
-#Instructions for this dataset:
-# You have only been supplied vectors. You will need
-# to create the matrices yourself.
-# Matrices:
-# - FreeThrows
-# - FreeThrowAttempts
-#
-#Sincerely,
-#Kirill Eremenko
-#www.superdatascience.com
-
 #Copyright: These datasets were prepared using publicly available data.
 #           However, theses scripts are subject to Copyright Laws. 
 #           If you wish to use these R scripts outside of the R Programming Course
@@ -49,8 +34,6 @@ DerrickRose_FT <- c(146,146,146,197,259,476,194,0,27,152)
 DwayneWade_FT <- c(629,432,354,590,534,494,235,308,189,284)
 
 #Matrix
-#
-# <put your code here>
 Free_Throws <- rbind(KobeBryant_FT, JoeJohnson_FT, LeBronJames_FT, CarmeloAnthony_FT, DwightHoward_FT, ChrisBosh_FT, ChrisPaul_FT, KevinDurant_FT, DerrickRose_FT, DwayneWade_FT)
 
 #Free Throw Attempts
@@ -64,9 +47,8 @@ ChrisPaul_FTA <- c(465,357,390,524,190,384,302,323,345,321)
 KevinDurant_FTA <- c(256,256,448,524,840,675,501,750,805,171)
 DerrickRose_FTA <- c(205,205,205,250,338,555,239,0,32,187)
 DwayneWade_FTA <- c(803,535,467,771,702,652,297,425,258,370)
-#Matrix
-#
-# <put your code here>
+
+
 Free_Throw_Attempts <- rbind(KobeBryant_FTA, JoeJohnson_FTA, LeBronJames_FTA, CarmeloAnthony_FTA, DwightHoward_FTA, ChrisBosh_FTA, ChrisPaul_FTA, KevinDurant_FTA, DerrickRose_FTA, DwayneWade_FTA)
 
 Free_Throws
@@ -88,6 +70,7 @@ ChrisPaul_G <- c(78,64,80,78,45,80,60,70,62,82)
 KevinDurant_G <- c(35,35,80,74,82,78,66,81,81,27)
 DerrickRose_G <- c(40,40,40,81,78,81,39,0,10,51)
 DwayneWade_G <- c(75,51,51,79,77,76,49,69,54,62)
+
 #Matrix
 Games <- rbind(KobeBryant_G, JoeJohnson_G, LeBronJames_G, CarmeloAnthony_G, DwightHoward_G, ChrisBosh_G, ChrisPaul_G, KevinDurant_G, DerrickRose_G, DwayneWade_G)
 rm(KobeBryant_G, JoeJohnson_G, CarmeloAnthony_G, DwightHoward_G, ChrisBosh_G, LeBronJames_G, ChrisPaul_G, DerrickRose_G, DwayneWade_G, KevinDurant_G)
@@ -105,6 +88,7 @@ ChrisPaul_FG <- c(407,381,630,631,314,430,425,412,406,568)
 KevinDurant_FG <- c(306,306,587,661,794,711,643,731,849,238)
 DerrickRose_FG <- c(208,208,208,574,672,711,302,0,58,338)
 DwayneWade_FG <- c(699,472,439,854,719,692,416,569,415,509)
+
 #Matrix
 FieldGoals <- rbind(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
 rm(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
@@ -122,6 +106,7 @@ ChrisPaul_PTS <- c(1258,1104,1684,1781,841,1268,1189,1186,1185,1564)
 KevinDurant_PTS <- c(903,903,1624,1871,2472,2161,1850,2280,2593,686)
 DerrickRose_PTS <- c(597,597,597,1361,1619,2026,852,0,159,904)
 DwayneWade_PTS <- c(2040,1397,1254,2386,2045,1941,1082,1463,1028,1331)
+
 #Matrix
 Points <- rbind(KobeBryant_PTS, JoeJohnson_PTS, LeBronJames_PTS, CarmeloAnthony_PTS, DwightHoward_PTS, ChrisBosh_PTS, ChrisPaul_PTS, KevinDurant_PTS, DerrickRose_PTS, DwayneWade_PTS)
 rm(KobeBryant_PTS, JoeJohnson_PTS, LeBronJames_PTS, CarmeloAnthony_PTS, DwightHoward_PTS, ChrisBosh_PTS, ChrisPaul_PTS, KevinDurant_PTS, DerrickRose_PTS, DwayneWade_PTS)
